@@ -12,13 +12,13 @@ import My from './module/my/My.js';
 //import My from './module/My/My;
 
 export default class Routers extends Component {
-    render(){
-        return(
-            <Router history={browserHistory}>
-                <Route path="/" component={AppContainer}/>
-                <Route path="community" component={Community}/>
-                <Route path="my" component={My}/>
-            </Router>
-        )
-    }
+  render() {
+    return (
+      <Router history={browserHistory}>
+        <Route path="/" component={AppContainer}/>
+        <Route path="community" component={Community}/>
+        <Route path="my" component={My}/>
+      </Router>
+    )
+  }
 }
