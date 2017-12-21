@@ -13,7 +13,7 @@ export default class My extends Component {
   render() {
     return (
       <div>
-        my
+        my的页面
       </div>
     )
   }

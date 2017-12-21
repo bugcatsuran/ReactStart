@@ -13,7 +13,7 @@ export default class Community extends Component {
   render() {
     return (
       <div>
-        community
+        community的页面
       </div>
     )
   }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server  --config webpack.develop.config.js --port 3030 --hot --inline --devtool eval --progress --colors --hot --content-base src",
+    "dev": "webpack-dev-server  --config webpack.develop.config.js --port 8000 --hot --inline --devtool eval --progress --colors --hot --content-base src",
     "publish": "webpack --config webpack.publish.config.js"
   },
   "author": "",
@@ -22,6 +22,7 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-router": "^3.0.0",
-    "react-redux": "^5.0.1"
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0"
   }
 }
