@@ -11,11 +11,9 @@ import {Provider} from 'react-redux';
 import AppContainer from './module/appcontainer/AppContainer';
 import Community from './module/community/Community';
 import My from './module/my/My.js';
-import reducer from './reducer';
+import reducer from './Reducers.js';
 
-const store = createStore(function () {
-  
-});
+const store = createStore(reducer);
 
 export default class Routers extends Component {
   render() {
