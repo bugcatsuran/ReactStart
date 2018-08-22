@@ -19,6 +19,7 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
+    "key-mirror": "1.0.1",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-router": "^3.0.0",

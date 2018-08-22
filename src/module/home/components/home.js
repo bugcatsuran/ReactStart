@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import {Link} from 'react-router';
 
 
-export default class AppContainer extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {}

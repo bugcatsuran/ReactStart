@@ -8,9 +8,9 @@ import { createStore } from 'redux';
 import {Provider} from 'react-redux';
 
 
-import AppContainer from './module/appcontainer/AppContainer';
-import Community from './module/community/Community';
-import My from './module/my/My.js';
+import Home from './module/home';
+import Community from './module/community';
+import My from './module/my';
 import reducer from './Reducers.js';
 
 const store = createStore(reducer);
@@ -20,7 +20,7 @@ export default class Routers extends Component {
     return (
       <Provider store={store}>
         <Router history={browserHistory}>
-          <Route path="/" component={AppContainer}/>
+          <Route path="/" component={Home}/>
           <Route path="community" component={Community}/>
           <Route path="my" component={My}/>
         </Router>
